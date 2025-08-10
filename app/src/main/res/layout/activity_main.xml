@@ -31,17 +31,20 @@
         <ImageView
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:src="@drawable/image01" />
+            android:src="@drawable/image01"
+            android:layout_marginStart="10dp"/>
 
         <ImageView
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:src="@drawable/image02" />
+            android:src="@drawable/image02"
+            android:layout_marginStart="10dp"/>
 
         <ImageView
             android:layout_width="300dp"
             android:layout_height="match_parent"
-            android:src="@drawable/image03" />
+            android:src="@drawable/image03"
+            android:layout_marginStart="10dp"/>
 
 
     </LinearLayout>
