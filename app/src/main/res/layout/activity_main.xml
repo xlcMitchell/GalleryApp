@@ -12,7 +12,12 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:background="#640000"
+        android:text="Gallery App"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <View
         android:id="@+id/view"
@@ -44,6 +49,18 @@
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:src="@drawable/image03"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/oldman"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/river"
             android:layout_marginStart="10dp"/>
 
 
